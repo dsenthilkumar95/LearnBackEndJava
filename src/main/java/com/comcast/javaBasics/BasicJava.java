@@ -20,6 +20,7 @@ public class BasicJava {
         System.out.println(targetArray[0]);
 
         // remove method overloading in ArrayList between index and object
+        // Here 1 is casted to int primitive as removes "2" from list, while only 1 created as Integer object is only removes the "1" from list
         List<Integer> intList = new ArrayList<>();
         intList.add(1);
         intList.add(2);
@@ -27,5 +28,26 @@ public class BasicJava {
         intList.remove(1);
         intList.remove(new Integer(1));
         intList.forEach(i -> System.out.println(i));
+
+        // Here String print method is called and null casts to String before Object
+        print(null);
+
+        // using / operator in int
+        int a;
+        a = 8/3;
+        int b = -1/2;
+        System.out.println("a -> " + a + " b -> " + b);
+    }
+
+    public static void print(Object o){
+        System.out.println("Object method is called");
+    }
+
+    public static void print(String s){
+        System.out.println("String method is called");
+    }
+
+    public static void print(int s){
+        System.out.println("int method is called");
     }
 }

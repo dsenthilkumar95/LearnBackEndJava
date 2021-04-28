@@ -1,0 +1,269 @@
+{
+  "startIndex": 1,
+  "itemsPerPage": 100,
+  "entryCount": 32,
+  "entries": [
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/13520660",
+      "guid": "LkJMSGQ8gk_EdNRT8gjJqRKmJg1XOAIM",
+      "title": "Roku BIF Images",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/4936901",
+      "guid": "izBhbBaQNLwxhP4NlFiy5Csar5GwD2zQ",
+      "title": "Connected Devices",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/13520660"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/23849264",
+      "guid": "rOjdifnSLR00r4pXdNzLO1r5IjX08Ihs",
+      "title": "Accelerate - Analyze",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/23535510",
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/25023847",
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22271739"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25968577",
+      "guid": "a4zNdVcYFBvVhcEZts9xxm08U___GA4K",
+      "title": "SSAI Accelerate - HLS Delivery (Temp)",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25962326",
+      "guid": "ayBlrpjlOCm4Sd8WZ2DAFfWr8V3dogZ0",
+      "title": "SSAI Accelerate - Analyze Only",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/25961936"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25962154",
+      "guid": "suDePAsSbZ3kAPHze9e8AizSl32Q7nQY",
+      "title": "SSAI Accelerate - Cleanup",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/25962046"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25962046",
+      "guid": "_gPjeIjm_YgCgp_4t8263dvkbc6my2_h",
+      "title": "SSAI Accelerate - HLS Delivery",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25961936",
+      "guid": "EOMGE60NEDGYskApzvKveeZzklIzkJ_y",
+      "title": "SSAI Accelerate - Transcoding",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/25962046",
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/25962154"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25961688",
+      "guid": "iKXDKel5nPSqOriko_FVlCRGfaxuNt5W",
+      "title": "SSAI Accelerate - Analyze",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/23418925",
+      "guid": "9EBKc6hJGhA7oE2PKwEPzFkh9wwymlTE",
+      "title": "S3 Video Transfer",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22546755",
+      "guid": "DGSvNFVQdnj1FO_UoMrHqEBii4UIlwce",
+      "title": "Accelerate MPEG4 (new)",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22544690",
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22545115"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/21139301",
+      "guid": "FltVDcRwC4dg__4xC3XLC_D4BN6Tvim5",
+      "title": "Samsung TV",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/24791213",
+      "guid": "8tGf5TZ7Hu0heRcruoMHT5TlN55is_lG",
+      "title": "Accelerate - Delivery",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22545115"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22544690",
+      "guid": "7Ok1m_bsUecclTMUJ91QJnxp4xOUMsth",
+      "title": "Smooth Stream",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/24791213"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/26917151",
+      "guid": "l8VeaKtAHEFImmmlOGCY3hOMrt8F2E98",
+      "title": "Test Analyze",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25146553",
+      "guid": "_YOQOADxZeXLC_aUiF8ei0iuiGcBWasO",
+      "title": "Hero Clip",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/23851635",
+      "guid": "qUY9a8MWAcYdcvSRtt8x_XDjlBVaDGD1",
+      "title": "Test Accelerate - Delete working files",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/23730548",
+      "guid": "sbRO2DgGYQ9qPkrj8Tr5dPgAQBVYDh2Y",
+      "title": "Test Accelerate - Mezzanine preparation",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22743332",
+      "guid": "oMKhO2Ib183g_vHsvMRAvKf054rwzlCv",
+      "title": "Accelerate MPEG4 (caption fix)",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22251714",
+      "guid": "tHugl7ZpBbxPIVXYD0FhtGcQYGnpJIts",
+      "title": "Accelerate MPEG4",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22544690",
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22545115"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/19961340",
+      "guid": "MKdqlOyfiHf6og1mOjI66fIwgjzceNQJ",
+      "title": "Elemental MPEG4",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/4936901"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/18520459",
+      "guid": "OT7dUz3zC83Dj6suz8MebMUvOMTen_Lp",
+      "title": "Rhozet MPEG4",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/13520660"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/16877668",
+      "guid": "XMGHFZOydrNfFdHQ6k_egHjLp1scRLLw",
+      "title": "Encoding.com MPEG4",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/4936901"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/14109331",
+      "guid": "O7SRS_T17TLuTGRbe19pLPkVhk7YYc_E",
+      "title": "SCC Injection",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/4936901"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/8879025",
+      "guid": "K4bllwz1b8ydbzvAgspx7dceD9FuUWou",
+      "title": "Connected Devices (backup)",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/25023847",
+      "guid": "hfcS99pUh4W8P_nzPp67niSE4Ao_BNLN",
+      "title": "Accelerate - Transcoding",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22544690"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/23849233",
+      "guid": "WtNS6ns1awFMvTaePBIUm7Ag_z_0vrSo",
+      "title": "Accelerate - SSAI HLS Delivery",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/23535510",
+      "guid": "TclyuFrY5iyBrlDdLSm1ThU2mPQiE561",
+      "title": "Accelerate - SSAI Transcoding",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/22544690",
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/23849233"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22545115",
+      "guid": "EYV4dYipU49ATVIHzpq5ssH0te1fVsJY",
+      "title": "Connected Devices (Accelerate)",
+      "publishProfileIds": [
+        "http://data.publish.theplatform.com/publish/data/PublishProfile/13520660"
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22271739",
+      "guid": "7za2aR6vQ_waZWviNYPPXJbFmHaS2ZWX",
+      "title": "Caption Workflow",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/6935562",
+      "guid": "K6L3INxXtVisfrTexplJH_Dff1SVQ5uR",
+      "title": "Publish Updated Images",
+      "publishProfileIds": [
+
+      ]
+    },
+    {
+      "id": "http://data.publish.theplatform.com/publish/data/PublishProfile/22586912",
+      "guid": "ftLl77yK4aUH0dIN7VNtYnsk8CUTD7hk",
+      "title": "Move Mezzanine to Storage",
+      "publishProfileIds": [
+
+      ]
+    }
+  ]
+}

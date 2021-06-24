@@ -1,9 +1,6 @@
 package com.improve.javaBasics;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class BasicJava {
 
@@ -61,6 +58,25 @@ public class BasicJava {
         Byte b1 = int1.byteValue();
         System.out.println("Byte Value of 196 -> " + b1);
 
+        // In LinkedHashMap, key order is maintained the same as previous insertion. If 1 is inserted first and only value is updated later then
+        // position remains the same
+        Map<Integer, String> linkedMap = new LinkedHashMap<>();
+        linkedMap.put(1,"Senthil");
+        linkedMap.put(2,"Saro");
+        linkedMap.put(3,"Rekha");
+        linkedMap.put(4,"Kishore");
+        linkedMap.forEach((k,v) -> {
+            System.out.println(k + " -> " + v);
+        });
+        System.out.println("----------");
+        linkedMap.put(1,"Senthil1");
+        linkedMap.put(2,"Saro1");
+        linkedMap.forEach((k,v)->{
+            System.out.println(k + " -> " + v);
+        });
+
+        Map<Integer, String> sizedHashMap = new HashMap<>(23,.75f);
+        sizedHashMap.put(1,"Senthil");
 
     }
 

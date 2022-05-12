@@ -20,4 +20,14 @@ public class EmployeeController {
     public List<Employee> getEmployeesGreaterThan(@RequestParam Map<String,String> params) {
         return employeeService.dobGreaterThan(params.get("date"));
     }
+
+    @GetMapping(path = "/getAllEmployeesWithPagination",produces = "application/json",consumes = "application/json")
+    public List<Employee> getAllEmployeesWithPagination(@RequestParam Map<String,String> params) {
+        int page = Integer.valueOf(params.get("page"));
+        int size = Integer.valueOf(params.get("size"));
+        String direction = params.get("direction");
+        String props = params.get("properties");
+        String[] propsArray = props.split(",");
+        return employeeService.getByPageNumber(page,size,direction,propsArray);
+    }
 }

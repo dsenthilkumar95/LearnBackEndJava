@@ -1,0 +1,3 @@
+INSERT INTO EMPLOYEE (ID,NAME,DOB,employmentdate,salary,role) VALUES (1,'Senthil','1995-09-12','2017-03-27',300000,'Systems Engineer');
+INSERT INTO EMPLOYEE (ID,NAME,DOB,employmentdate,salary,role) VALUES (2,'Saro','1994-10-25','2017-03-27',350000,'Systems Engineer');
+INSERT INTO EMPLOYEE (ID,NAME,DOB,employmentdate,salary,role) VALUES (3,'Rekha','1997-10-25','2017-03-27',250000,'Systems Engineer');

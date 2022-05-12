@@ -5,8 +5,6 @@ import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
-import com.amazonaws.services.dynamodbv2.document.DynamoDB;
-import com.amazonaws.services.dynamodbv2.document.Table;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
 import com.amazonaws.services.dynamodbv2.model.PutItemRequest;
 import com.amazonaws.services.dynamodbv2.model.PutItemResult;
@@ -52,7 +50,6 @@ public class LoadTableWithADB {
         stringAttributeValueMap.put("ID", new AttributeValue().withN(String.valueOf(ID)));
         stringAttributeValueMap.put("Nomenclature", new AttributeValue().withS(Nomenclature));
         stringAttributeValueMap.put("stat", new AttributeValue().withM(stat));
-
         PutItemResult putItemResult = amazonDynamoDB.putItem(new PutItemRequest().withTableName("Products").withItem(stringAttributeValueMap));
 
         System.out.println("Put items result -> " + putItemResult);

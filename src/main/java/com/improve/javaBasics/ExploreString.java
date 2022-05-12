@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StringExplore {
+public class ExploreString {
     public static void main(String[] args){
 
         String s1 = "Senthil";
@@ -49,5 +49,13 @@ public class StringExplore {
         sb.append("setnthi");
         sb.append("kumar");
         System.out.println(sb.toString());
+
+        // Convert String to integer
+        String two ="2";
+        int i = Integer.valueOf(two);
+
+        // Index of empty string
+        String word = "saro";
+        System.out.println("word.indexOf() -> " + word.indexOf(""));
     }
 }

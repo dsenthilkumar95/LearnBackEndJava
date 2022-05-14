@@ -1,6 +1,6 @@
 package com.improve.javaBasics;
 
-public class Employee {
+public class ThreadEmployee {
     private int id;
     private String name;
 
@@ -30,6 +30,11 @@ public class Employee {
 
     public synchronized void method1(){
         System.out.println("Method 1 is executed");
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public synchronized void method2(){

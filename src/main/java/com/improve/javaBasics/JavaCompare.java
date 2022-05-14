@@ -47,24 +47,24 @@ public class JavaCompare {
             i.forEach(j -> System.out.println(j.toString()));
         });
 
-        Employee emp1 = new Employee();
+        ThreadEmployee emp1 = new ThreadEmployee();
         emp1.setName("Employee");
-        Employee emp2 = new Employee();
+        ThreadEmployee emp2 = new ThreadEmployee();
         emp2.setName("Saravanan");
-        Employee emp3 = new Employee();
+        ThreadEmployee emp3 = new ThreadEmployee();
         emp3.setName("Senthil");
         Map<String, Integer> keyValueMap = new HashMap<>();
         keyValueMap.put("Employee",1);
         keyValueMap.put("Saravanan",2);
         keyValueMap.put("Senthil",3);
 
-        Comparator<Employee> employeeComparator = new Comparator<Employee>() {
+        Comparator<ThreadEmployee> employeeComparator = new Comparator<ThreadEmployee>() {
             @Override
-            public int compare(Employee o1, Employee o2) {
+            public int compare(ThreadEmployee o1, ThreadEmployee o2) {
                 return keyValueMap.get(o1.getName()) - keyValueMap.get(o2.getName());
             }
         };
-        List<Employee> empList = new ArrayList<>();
+        List<ThreadEmployee> empList = new ArrayList<>();
         empList.add(emp3);
         empList.add(emp2);
         empList.add(emp1);

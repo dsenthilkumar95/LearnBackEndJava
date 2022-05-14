@@ -1,6 +1,6 @@
 package com.improve.javaBasics;
 
-public class InterruptingThread extends Thread{
+public class ThreadInterupting extends Thread{
     @Override
     public void run(){
         for(int i=1;i<=2;i++){
@@ -15,8 +15,8 @@ public class InterruptingThread extends Thread{
 
     public static void main(String args[]){
 
-        InterruptingThread t1=new InterruptingThread();
-        InterruptingThread t2=new InterruptingThread();
+        ThreadInterupting t1=new ThreadInterupting();
+        ThreadInterupting t2=new ThreadInterupting();
 
         t1.start();
         t1.interrupt();

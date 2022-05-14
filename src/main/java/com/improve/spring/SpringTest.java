@@ -1,13 +1,13 @@
 package com.improve.spring;
 
-import com.improve.javaBasics.Employee;
+import com.improve.javaBasics.ThreadEmployee;
 
 public class SpringTest {
     public static void main(String[] args){
-        Employee employee = new Employee();
-        employee.setId(1);
-        employee.setName("Senthil");
-        System.out.println(employee.getId());
-        System.out.println(employee.getName());
+        ThreadEmployee threadEmployee = new ThreadEmployee();
+        threadEmployee.setId(1);
+        threadEmployee.setName("Senthil");
+        System.out.println(threadEmployee.getId());
+        System.out.println(threadEmployee.getName());
     }
 }

@@ -39,19 +39,19 @@ public class IteratingCollections {
         System.out.println("Kishore -> " + value);
 
         // When using treeSet or Treemap, key value should be implementing Comparable or comparator has to be passed in constructing treemap
-        Map<Employee, String> treeMap = new TreeMap<>(new Comparator<Employee>() {
+        Map<ThreadEmployee, String> treeMap = new TreeMap<>(new Comparator<ThreadEmployee>() {
             @Override
-            public int compare(Employee o1, Employee o2) {
+            public int compare(ThreadEmployee o1, ThreadEmployee o2) {
                 return o1.getName().compareTo(o2.getName());
             }
         });
         // comparing static method for generating comparator and thencomparing method for appending compartor functionality to existing functionality
-        Map<Employee, String> treeMap1 = new TreeMap<>(Comparator.comparing(Employee::getName).thenComparing(Comparator.comparing(Employee::getId)));
-        Employee emp1= new Employee();
+        Map<ThreadEmployee, String> treeMap1 = new TreeMap<>(Comparator.comparing(ThreadEmployee::getName).thenComparing(Comparator.comparing(ThreadEmployee::getId)));
+        ThreadEmployee emp1= new ThreadEmployee();
         emp1.setId(1);
         emp1.setName("Senthil");
         treeMap.put(emp1,"Senthil");
-        Employee emp2= new Employee();
+        ThreadEmployee emp2= new ThreadEmployee();
         emp2.setId(2);
         emp2.setName("Saro");
         treeMap.put(emp2,"Saro");

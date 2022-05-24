@@ -1,11 +1,11 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.multiithreading;
 
 import java.util.Calendar;
 
-public class ThreadsJava extends Thread{
+public class ExploreThreadsJava extends Thread{
     public static String sample = "sample";
     public void objectLevelLocking() {
-        ThreadEmployee e = new ThreadEmployee();
+        ExploreThreadEmployee e = new ExploreThreadEmployee();
         Thread t1 = new Thread1(e);
         Thread t2 = new Thread2(e);
         t1.start();
@@ -23,7 +23,7 @@ public class ThreadsJava extends Thread{
         t4.start();
     }
     public void waitAndNotify() {
-        ThreadEmployee e = new ThreadEmployee();
+        ExploreThreadEmployee e = new ExploreThreadEmployee();
         new Thread(){
             public void run(){
                 e.waitmethod();
@@ -37,7 +37,7 @@ public class ThreadsJava extends Thread{
         }.start();
     }
     public void joiningThreads() {
-        ThreadEmployee e = new ThreadEmployee();
+        ExploreThreadEmployee e = new ExploreThreadEmployee();
         Thread t5 = new Thread1(e);
         t5.start();
         try {
@@ -48,14 +48,14 @@ public class ThreadsJava extends Thread{
         }
     }
     public static void main(String[] args){
-        ThreadsJava threadsJava = new ThreadsJava();
-        threadsJava.objectLevelLocking();
+        ExploreThreadsJava exploreThreadsJava = new ExploreThreadsJava();
+        exploreThreadsJava.objectLevelLocking();
     }
 }
 
 class Thread1 extends Thread{
-    private ThreadEmployee e;
-    public Thread1(ThreadEmployee e){
+    private ExploreThreadEmployee e;
+    public Thread1(ExploreThreadEmployee e){
         this.e = e;
     }
     @Override
@@ -67,8 +67,8 @@ class Thread1 extends Thread{
 }
 
 class Thread2 extends Thread{
-    private ThreadEmployee e;
-    public Thread2(ThreadEmployee e){
+    private ExploreThreadEmployee e;
+    public Thread2(ExploreThreadEmployee e){
         this.e = e;
     }
     @Override
@@ -80,7 +80,7 @@ class Thread2 extends Thread{
 class Thread3 extends Thread{
     @Override
     public void run(){
-        ThreadEmployee.staticSync1();
+        ExploreThreadEmployee.staticSync1();
         try {
             Thread.sleep(5000);
         } catch (InterruptedException interruptedException) {
@@ -92,6 +92,6 @@ class Thread3 extends Thread{
 class Thread4 extends Thread{
     @Override
     public void run(){
-        ThreadEmployee.staticSync2();
+        ExploreThreadEmployee.staticSync2();
     }
 }

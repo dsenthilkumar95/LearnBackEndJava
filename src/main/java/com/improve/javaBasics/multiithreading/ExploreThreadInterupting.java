@@ -1,6 +1,6 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.multiithreading;
 
-public class ThreadInterupting extends Thread{
+public class ExploreThreadInterupting extends Thread{
     @Override
     public void run(){
         for(int i=1;i<=2;i++){
@@ -15,8 +15,8 @@ public class ThreadInterupting extends Thread{
 
     public static void main(String args[]){
 
-        ThreadInterupting t1=new ThreadInterupting();
-        ThreadInterupting t2=new ThreadInterupting();
+        ExploreThreadInterupting t1=new ExploreThreadInterupting();
+        ExploreThreadInterupting t2=new ExploreThreadInterupting();
 
         t1.start();
         t1.interrupt();

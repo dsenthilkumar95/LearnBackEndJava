@@ -1,4 +1,4 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.bitwise;
 
 public class ExploreBitwise {
     public void exploreSignedOperations() {

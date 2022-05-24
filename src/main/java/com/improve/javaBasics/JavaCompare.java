@@ -1,5 +1,7 @@
 package com.improve.javaBasics;
 
+import com.improve.javaBasics.multiithreading.ExploreThreadEmployee;
+
 import java.util.*;
 
 public class JavaCompare {
@@ -47,24 +49,24 @@ public class JavaCompare {
             i.forEach(j -> System.out.println(j.toString()));
         });
 
-        ThreadEmployee emp1 = new ThreadEmployee();
+        ExploreThreadEmployee emp1 = new ExploreThreadEmployee();
         emp1.setName("Employee");
-        ThreadEmployee emp2 = new ThreadEmployee();
+        ExploreThreadEmployee emp2 = new ExploreThreadEmployee();
         emp2.setName("Saravanan");
-        ThreadEmployee emp3 = new ThreadEmployee();
+        ExploreThreadEmployee emp3 = new ExploreThreadEmployee();
         emp3.setName("Senthil");
         Map<String, Integer> keyValueMap = new HashMap<>();
         keyValueMap.put("Employee",1);
         keyValueMap.put("Saravanan",2);
         keyValueMap.put("Senthil",3);
 
-        Comparator<ThreadEmployee> employeeComparator = new Comparator<ThreadEmployee>() {
+        Comparator<ExploreThreadEmployee> employeeComparator = new Comparator<ExploreThreadEmployee>() {
             @Override
-            public int compare(ThreadEmployee o1, ThreadEmployee o2) {
+            public int compare(ExploreThreadEmployee o1, ExploreThreadEmployee o2) {
                 return keyValueMap.get(o1.getName()) - keyValueMap.get(o2.getName());
             }
         };
-        List<ThreadEmployee> empList = new ArrayList<>();
+        List<ExploreThreadEmployee> empList = new ArrayList<>();
         empList.add(emp3);
         empList.add(emp2);
         empList.add(emp1);

@@ -1,6 +1,6 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.multiithreading;
 
-public class ThreadEmployee {
+public class ExploreThreadEmployee {
     private int id;
     private String name;
 

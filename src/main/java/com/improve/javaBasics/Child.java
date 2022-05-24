@@ -1,6 +1,9 @@
 package com.improve.javaBasics;
 
 public class Child extends Parent{
+    public static void staticMethod() {
+        System.out.println("Static method in child");
+    }
     @Override
     protected void methoda() {
         System.out.println("I am method A of child");
@@ -11,5 +14,6 @@ public class Child extends Parent{
         child.callMethodA();
         Parent parent = child;
         parent.methoda();
+        Child.staticMethod();
     }
 }

@@ -1,4 +1,6 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.collections;
+
+import com.improve.javaBasics.multiithreading.ExploreThreadEmployee;
 
 import java.util.*;
 
@@ -39,19 +41,19 @@ public class IteratingCollections {
         System.out.println("Kishore -> " + value);
 
         // When using treeSet or Treemap, key value should be implementing Comparable or comparator has to be passed in constructing treemap
-        Map<ThreadEmployee, String> treeMap = new TreeMap<>(new Comparator<ThreadEmployee>() {
+        Map<ExploreThreadEmployee, String> treeMap = new TreeMap<>(new Comparator<ExploreThreadEmployee>() {
             @Override
-            public int compare(ThreadEmployee o1, ThreadEmployee o2) {
+            public int compare(ExploreThreadEmployee o1, ExploreThreadEmployee o2) {
                 return o1.getName().compareTo(o2.getName());
             }
         });
         // comparing static method for generating comparator and thencomparing method for appending compartor functionality to existing functionality
-        Map<ThreadEmployee, String> treeMap1 = new TreeMap<>(Comparator.comparing(ThreadEmployee::getName).thenComparing(Comparator.comparing(ThreadEmployee::getId)));
-        ThreadEmployee emp1= new ThreadEmployee();
+        Map<ExploreThreadEmployee, String> treeMap1 = new TreeMap<>(Comparator.comparing(ExploreThreadEmployee::getName).thenComparing(Comparator.comparing(ExploreThreadEmployee::getId)));
+        ExploreThreadEmployee emp1= new ExploreThreadEmployee();
         emp1.setId(1);
         emp1.setName("Senthil");
         treeMap.put(emp1,"Senthil");
-        ThreadEmployee emp2= new ThreadEmployee();
+        ExploreThreadEmployee emp2= new ExploreThreadEmployee();
         emp2.setId(2);
         emp2.setName("Saro");
         treeMap.put(emp2,"Saro");

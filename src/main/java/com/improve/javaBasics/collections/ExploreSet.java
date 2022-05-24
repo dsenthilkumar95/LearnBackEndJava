@@ -1,4 +1,4 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.collections;
 
 import java.util.LinkedHashSet;
 

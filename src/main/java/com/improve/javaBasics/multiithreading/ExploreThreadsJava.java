@@ -9,7 +9,7 @@ public class ExploreThreadsJava extends Thread{
         Thread t1 = new Thread1(e);
         Thread t2 = new Thread2(e);
         t1.start();
-        try {
+        try {   
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
             ex.printStackTrace();

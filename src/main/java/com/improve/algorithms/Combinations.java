@@ -78,6 +78,7 @@ public class Combinations {
     }
 
     public static void main(String[] args) {
+        // Simple comment
         Combinations combinations = new Combinations();
         String word = "doge";
         List<String> out = combinations.combinationsOnLevel(word,2);

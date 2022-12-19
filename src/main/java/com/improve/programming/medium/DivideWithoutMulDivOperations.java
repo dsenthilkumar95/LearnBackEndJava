@@ -2,7 +2,7 @@ package com.improve.programming.medium;
 
 public class DivideWithoutMulDivOperations {
     // solution not complete still have doubt on how Integer.MIN_VALUE/Integer.MIN_VALUE will be carried out.
-    
+
     public int divide(int dividend, int divisor) {
         if(dividend==divisor){
             return 1;

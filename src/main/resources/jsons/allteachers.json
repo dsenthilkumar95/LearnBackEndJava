@@ -1,0 +1,778 @@
+{
+	"dataStatus": true,
+	"status": 200,
+	"teacherslist": [
+		{
+			"u_id": "604886",
+			"teacher_id": "10604886",
+			"teacher_name": "LOGANATHAN V",
+			"category": "1",
+			"desgination": "PART TIME INSTRUCTOR - SSA",
+			"appsub": "Health & Physical Education - SSA",
+			"deputed": "0",
+			"staff_psjoin": "2012-03-06"
+		},
+		{
+			"u_id": "604991",
+			"teacher_id": "10604991",
+			"teacher_name": "SANTHIYA K",
+			"category": "1",
+			"desgination": "PART TIME INSTRUCTOR - SSA",
+			"appsub": "Art education - SSA",
+			"deputed": "0",
+			"staff_psjoin": "2018-10-22"
+		},
+		{
+			"u_id": "37315",
+			"teacher_id": "10037315",
+			"teacher_name": "VIMALA M",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2015-10-28"
+		},
+		{
+			"u_id": "37286",
+			"teacher_id": "10037286",
+			"teacher_name": "SAGAYARANI C",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2016-08-27"
+		},
+		{
+			"u_id": "37736",
+			"teacher_id": "10037736",
+			"teacher_name": "REVATHY N",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Zoology",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-10"
+		},
+		{
+			"u_id": "37310",
+			"teacher_id": "10037310",
+			"teacher_name": "SARALA R",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2010-08-02"
+		},
+		{
+			"u_id": "37300",
+			"teacher_id": "10037300",
+			"teacher_name": "SUDHA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2008-12-10"
+		},
+		{
+			"u_id": "37368",
+			"teacher_id": "10037368",
+			"teacher_name": "ANUSUYA V R",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2019-11-18"
+		},
+		{
+			"u_id": "39037",
+			"teacher_id": "10039037",
+			"teacher_name": "AMUDHAMATHI I",
+			"category": "1",
+			"desgination": "HEADTEACHER (HSS)",
+			"appsub": "Chemistry",
+			"deputed": "0",
+			"staff_psjoin": "2018-06-15"
+		},
+		{
+			"u_id": "37299",
+			"teacher_id": "10037299",
+			"teacher_name": "KAVITHA A",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2015-08-27"
+		},
+		{
+			"u_id": "37292",
+			"teacher_id": "10037292",
+			"teacher_name": "MYTHILI R",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-24"
+		},
+		{
+			"u_id": "37283",
+			"teacher_id": "10037283",
+			"teacher_name": "LEELA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2010-08-02"
+		},
+		{
+			"u_id": "295050",
+			"teacher_id": "10295050",
+			"teacher_name": "INDIRA K M",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2018-06-18"
+		},
+		{
+			"u_id": "37313",
+			"teacher_id": "10037313",
+			"teacher_name": "DHANALAKSHMI A",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2012-08-01"
+		},
+		{
+			"u_id": "37272",
+			"teacher_id": "10037272",
+			"teacher_name": "SANTHI P",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Botany",
+			"deputed": "0",
+			"staff_psjoin": "2015-08-24"
+		},
+		{
+			"u_id": "601873",
+			"teacher_id": "10601873",
+			"teacher_name": "VIJAYALAKSHMI J",
+			"category": "2",
+			"desgination": "SCAVENGER",
+			"appsub": "OTHERS",
+			"deputed": "0",
+			"staff_psjoin": "2012-11-24"
+		},
+		{
+			"u_id": "37314",
+			"teacher_id": "10037314",
+			"teacher_name": "KARPAGAM P",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2015-08-31"
+		},
+		{
+			"u_id": "37302",
+			"teacher_id": "10037302",
+			"teacher_name": "RAJESWARI R",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Science",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-24"
+		},
+		{
+			"u_id": "37284",
+			"teacher_id": "10037284",
+			"teacher_name": "SRIVITHYA R",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2016-08-29"
+		},
+		{
+			"u_id": "37301",
+			"teacher_id": "10037301",
+			"teacher_name": "NAGARANI J",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-14"
+		},
+		{
+			"u_id": "40125",
+			"teacher_id": "10040125",
+			"teacher_name": "DHANALAKSHMI D M",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-16"
+		},
+		{
+			"u_id": "295192",
+			"teacher_id": "10295192",
+			"teacher_name": "UMA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Science",
+			"deputed": "0",
+			"staff_psjoin": "2018-06-20"
+		},
+		{
+			"u_id": "37288",
+			"teacher_id": "10037288",
+			"teacher_name": "MICHAEL JANCI RANI C",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-16"
+		},
+		{
+			"u_id": "601831",
+			"teacher_id": "10601831",
+			"teacher_name": "KAMALARASAN M",
+			"category": "3",
+			"desgination": "RECORD CLERK",
+			"appsub": "OTHERS",
+			"deputed": "0",
+			"staff_psjoin": "2013-04-01"
+		},
+		{
+			"u_id": "37278",
+			"teacher_id": "10037278",
+			"teacher_name": "BHUVANESWARI C",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Chemistry",
+			"deputed": "0",
+			"staff_psjoin": "2017-06-01"
+		},
+		{
+			"u_id": "37290",
+			"teacher_id": "10037290",
+			"teacher_name": "LILLY B",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2008-12-29"
+		},
+		{
+			"u_id": "37309",
+			"teacher_id": "10037309",
+			"teacher_name": "ABIRAMI V.P.",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2016-08-29"
+		},
+		{
+			"u_id": "545857",
+			"teacher_id": "10545857",
+			"teacher_name": "RAVI SHANTHAKUMAR V",
+			"category": "2",
+			"desgination": "WATCHMAN",
+			"appsub": "OTHERS",
+			"deputed": "0",
+			"staff_psjoin": "2012-12-03"
+		},
+		{
+			"u_id": "37319",
+			"teacher_id": "10037319",
+			"teacher_name": "BAGAVATHI G",
+			"category": "1",
+			"desgination": "PHYSICAL EDUCATION TEACHER",
+			"appsub": "Physical Education",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-24"
+		},
+		{
+			"u_id": "37282",
+			"teacher_id": "10037282",
+			"teacher_name": "JAYALAKSHMI M",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Chemistry",
+			"deputed": "0",
+			"staff_psjoin": "2017-06-01"
+		},
+		{
+			"u_id": "37318",
+			"teacher_id": "10037318",
+			"teacher_name": "DEVICHITRA D",
+			"category": "1",
+			"desgination": "PHYSICAL EDUCATION TEACHER",
+			"appsub": "Physical Education",
+			"deputed": "0",
+			"staff_psjoin": "2012-11-24"
+		},
+		{
+			"u_id": "37296",
+			"teacher_id": "10037296",
+			"teacher_name": "TAMILARASI N",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2008-09-01"
+		},
+		{
+			"u_id": "603728",
+			"teacher_id": "10603728",
+			"teacher_name": "VIJAYALAKSHMI L",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-16"
+		},
+		{
+			"u_id": "604656",
+			"teacher_id": "10604656",
+			"teacher_name": "KALAVATHI V",
+			"category": "1",
+			"desgination": "PART TIME INSTRUCTOR - SSA",
+			"appsub": "Work Education - Comp App - SSA",
+			"deputed": "0",
+			"staff_psjoin": "2012-03-07"
+		},
+		{
+			"u_id": "295023",
+			"teacher_id": "10295023",
+			"teacher_name": "KALAVATHI G",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Economics",
+			"deputed": "0",
+			"staff_psjoin": "2018-06-20"
+		},
+		{
+			"u_id": "37305",
+			"teacher_id": "10037305",
+			"teacher_name": "KALA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Science",
+			"deputed": "0",
+			"staff_psjoin": "2014-06-27"
+		},
+		{
+			"u_id": "1081956",
+			"teacher_id": "11081956",
+			"teacher_name": "RAJASEKARAN N",
+			"category": "3",
+			"desgination": "ASSISTANT",
+			"appsub": "OTHERS",
+			"deputed": null,
+			"staff_psjoin": "2022-10-01"
+		},
+		{
+			"u_id": "37269",
+			"teacher_id": "10037269",
+			"teacher_name": "JAYANTHI  A P",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2014-06-26"
+		},
+		{
+			"u_id": "36765",
+			"teacher_id": "10036765",
+			"teacher_name": "JAYANTHI  D",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-15"
+		},
+		{
+			"u_id": "37307",
+			"teacher_id": "10037307",
+			"teacher_name": "VIJAYALAKSHMI S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Science",
+			"deputed": "0",
+			"staff_psjoin": "2014-06-11"
+		},
+		{
+			"u_id": "37030",
+			"teacher_id": "10037030",
+			"teacher_name": "JAYANTHI  V",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Zoology",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-10"
+		},
+		{
+			"u_id": "37287",
+			"teacher_id": "10037287",
+			"teacher_name": "MANIVANNAN A.B",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2012-08-14"
+		},
+		{
+			"u_id": "36766",
+			"teacher_id": "10036766",
+			"teacher_name": "CAROLINE G",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-15"
+		},
+		{
+			"u_id": "582716",
+			"teacher_id": "10582716",
+			"teacher_name": "SANTHI S",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-05"
+		},
+		{
+			"u_id": "37320",
+			"teacher_id": "10037320",
+			"teacher_name": "SHYAMALA N",
+			"category": "1",
+			"desgination": "SPECIAL TEACHER (MUSIC)",
+			"appsub": "Music",
+			"deputed": "0",
+			"staff_psjoin": "2010-12-06"
+		},
+		{
+			"u_id": "366579",
+			"teacher_id": "10366579",
+			"teacher_name": "VASANTHI K",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Economics",
+			"deputed": "0",
+			"staff_psjoin": "2015-08-24"
+		},
+		{
+			"u_id": "34255",
+			"teacher_id": "10034255",
+			"teacher_name": "RADHAKRISHNAN S",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2018-06-15"
+		},
+		{
+			"u_id": "37297",
+			"teacher_id": "10037297",
+			"teacher_name": "GOWRISANKARI J",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-16"
+		},
+		{
+			"u_id": "281981",
+			"teacher_id": "10281981",
+			"teacher_name": "VASAVI T",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Physics",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-10"
+		},
+		{
+			"u_id": "38906",
+			"teacher_id": "10038906",
+			"teacher_name": "ANGELA VASANTHA KUMARI   T",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Science",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-16"
+		},
+		{
+			"u_id": "37316",
+			"teacher_id": "10037316",
+			"teacher_name": "KANITHA N",
+			"category": "1",
+			"desgination": "COMPUTER INSTRUCTOR GRADE I",
+			"appsub": "Computer Science",
+			"deputed": "0",
+			"staff_psjoin": "2008-11-10"
+		},
+		{
+			"u_id": "338216",
+			"teacher_id": "10338216",
+			"teacher_name": "JOTHILAKSHMI S",
+			"category": "3",
+			"desgination": "JUNIOR ASSISTANT",
+			"appsub": "OTHERS",
+			"deputed": "0",
+			"staff_psjoin": "2022-10-01"
+		},
+		{
+			"u_id": "37317",
+			"teacher_id": "10037317",
+			"teacher_name": "SENTHAMIZHSELVI S.E",
+			"category": "1",
+			"desgination": "SECONDARY GRADE TEACHER",
+			"appsub": "All Subjects",
+			"deputed": "0",
+			"staff_psjoin": "2009-08-31"
+		},
+		{
+			"u_id": "37295",
+			"teacher_id": "10037295",
+			"teacher_name": "SANGEETHA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2015-08-27"
+		},
+		{
+			"u_id": "120428",
+			"teacher_id": "10120428",
+			"teacher_name": "VIJAYALAKSHMI R",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Botany",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-10"
+		},
+		{
+			"u_id": "130526",
+			"teacher_id": "10130526",
+			"teacher_name": "JAYACHITRA R",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Commerce",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-05"
+		},
+		{
+			"u_id": "601709",
+			"teacher_id": "10601709",
+			"teacher_name": "STELLA ARPUDHAM S",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2018-11-28"
+		},
+		{
+			"u_id": "303349",
+			"teacher_id": "10303349",
+			"teacher_name": "DEVISRI M",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Science",
+			"deputed": "0",
+			"staff_psjoin": "2018-06-20"
+		},
+		{
+			"u_id": "37293",
+			"teacher_id": "10037293",
+			"teacher_name": "POORANA DEVI K",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-23"
+		},
+		{
+			"u_id": "37277",
+			"teacher_id": "10037277",
+			"teacher_name": "SIVAKUMAR N",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Physics",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-06"
+		},
+		{
+			"u_id": "33388",
+			"teacher_id": "10033388",
+			"teacher_name": "KAVITHA N",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Commerce",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-05"
+		},
+		{
+			"u_id": "37285",
+			"teacher_id": "10037285",
+			"teacher_name": "VENNILA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-16"
+		},
+		{
+			"u_id": "37281",
+			"teacher_id": "10037281",
+			"teacher_name": "SARALADEVI  S",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Commerce",
+			"deputed": "0",
+			"staff_psjoin": "2017-09-22"
+		},
+		{
+			"u_id": "38567",
+			"teacher_id": "10038567",
+			"teacher_name": "KAVITHA R",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Tamil",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-16"
+		},
+		{
+			"u_id": "37291",
+			"teacher_id": "10037291",
+			"teacher_name": "POONKODI S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2015-08-31"
+		},
+		{
+			"u_id": "601856",
+			"teacher_id": "10601856",
+			"teacher_name": "ANUSUYA N",
+			"category": "3",
+			"desgination": "LAB ASSISTANT",
+			"appsub": "OTHERS",
+			"deputed": "0",
+			"staff_psjoin": "2017-04-19"
+		},
+		{
+			"u_id": "37273",
+			"teacher_id": "10037273",
+			"teacher_name": "NOORUNISSA A",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Commerce",
+			"deputed": "0",
+			"staff_psjoin": "2017-09-22"
+		},
+		{
+			"u_id": "37270",
+			"teacher_id": "10037270",
+			"teacher_name": "BALAKRISHNA M",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2006-07-27"
+		},
+		{
+			"u_id": "37271",
+			"teacher_id": "10037271",
+			"teacher_name": "SAM KAMAL RAJ M",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2013-06-03"
+		},
+		{
+			"u_id": "37298",
+			"teacher_id": "10037298",
+			"teacher_name": "KASTHURI N S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2017-05-29"
+		},
+		{
+			"u_id": "37311",
+			"teacher_id": "10037311",
+			"teacher_name": "MANIAMMAI S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Social Science",
+			"deputed": "0",
+			"staff_psjoin": "2016-08-29"
+		},
+		{
+			"u_id": "37289",
+			"teacher_id": "10037289",
+			"teacher_name": "LAKSHMIKANTHAN L",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "English",
+			"deputed": "0",
+			"staff_psjoin": "2012-07-24"
+		},
+		{
+			"u_id": "128410",
+			"teacher_id": "10128410",
+			"teacher_name": "REVATHI S",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Zoology",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-10"
+		},
+		{
+			"u_id": "36768",
+			"teacher_id": "10036768",
+			"teacher_name": "MALA S",
+			"category": "1",
+			"desgination": "GRADUATE TEACHER (BT ASSISTANT)",
+			"appsub": "Mathematics",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-15"
+		},
+		{
+			"u_id": "35462",
+			"teacher_id": "20035462",
+			"teacher_name": "POORNIMA T R",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Physics",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-08"
+		},
+		{
+			"u_id": "446713",
+			"teacher_id": "30446713",
+			"teacher_name": "JAYANTHI P",
+			"category": "1",
+			"desgination": "CRAFT TEACHER",
+			"appsub": "Sewing",
+			"deputed": "0",
+			"staff_psjoin": "2019-11-25"
+		},
+		{
+			"u_id": "650817",
+			"teacher_id": "30650817",
+			"teacher_name": "SIVALAKSHMI G",
+			"category": "1",
+			"desgination": "P.G. TEACHER",
+			"appsub": "Chemistry",
+			"deputed": "0",
+			"staff_psjoin": "2022-03-05"
+		}
+	],
+	"deputeteachers": [],
+	"volunteersteachers": []
+}

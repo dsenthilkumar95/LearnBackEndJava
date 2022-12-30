@@ -14,7 +14,7 @@ public class SelectionSort {
                     minPos = j;
                 }
             }
-            inList.add(i,inList.remove(minPos));
+            inList.set(minPos,inList.set(i,inList.get(minPos)));
         }
         return inList;
     }

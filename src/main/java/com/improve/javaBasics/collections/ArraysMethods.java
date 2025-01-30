@@ -1,4 +1,4 @@
-package com.improve.javaBasics;
+package com.improve.javaBasics.collections;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,6 +24,7 @@ public class ArraysMethods {
         intList.set(0, 5);
         System.out.println(Arrays.toString(intList.toArray()));
         System.out.println("-----------------------------------------------------------------------------------");
+
         // Arrays.binarySearch(int[] a, int key)
         // Should provide sorted array without duplicates. Returns index if found
         int resultIndex = Arrays.binarySearch(array1, 8);
@@ -36,13 +37,34 @@ public class ArraysMethods {
         int resultIndex3 = Arrays.binarySearch(array1, 12);
         System.out.println("resultIndex = " + resultIndex3);
         System.out.println("-----------------------------------------------------------------------------------");
+
         // Arrays.binarySearch(int[] a, int fromIndex, int toIndex, int key)
         // Similar behaviour as above but toIndex is excluded.
         int resultIndex4 = Arrays.binarySearch(array1, 0, 3, 8);
         System.out.println("resultIndex4 = " + resultIndex4);
         System.out.println("-----------------------------------------------------------------------------------");
+
         // Arrays.binarySearch(T[] a, T key, Comparator<? super T> c)
+        Node[] nodeArray = {new Node(1), new Node(2)};
+        int findIndex = Arrays.binarySearch(nodeArray, new Node(1), (i1, i2) -> {
+            if (i1.getId() < i2.getId()) {
+                return -1;
+            } else if (i1.getId() > i2.getId()) {
+                return 1;
+            } else {
+                return 0;
+            }
+        });
+        System.out.println("findIndex = " + findIndex);
+        System.out.println("-----------------------------------------------------------------------------------");
 
+        // Arrays.copyOf(int[] a, int newLength)
+        int[] copiedArray = Arrays.copyOf(array2, array2.length + 5);
+        System.out.println("Arrays.copyOf(int[] a, int newLength)");
+        System.out.println(Arrays.toString(copiedArray));
+        System.out.println("-----------------------------------------------------------------------------------");
 
+        // <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]> newType)
+//        Arrays.copyOf();
     }
 }
